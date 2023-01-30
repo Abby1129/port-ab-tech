@@ -4,7 +4,7 @@ import Logo from "../assets/Logo.png";
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-black text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#203A43] text-pink-300 text-lg">
       <div>
         <img src={Logo} alt="Logo" style={{ width: "100px" }} />
       </div>
