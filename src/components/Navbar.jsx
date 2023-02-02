@@ -1,5 +1,7 @@
 import React from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/Logo.png";
 
 const Navbar = () => {
@@ -33,6 +35,30 @@ const Navbar = () => {
       </ul>
 
       {/* social icons */}
+      <div>
+        <ul>
+          <li>
+            <a>
+              Github <FaGithub size={30} />
+            </a>
+          </li>
+          <li>
+            <a>
+              Email <HiOutlineMail size={30} />
+            </a>
+          </li>
+          <li>
+            <a>
+              Resume <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+          <li>
+            <a>
+              Linkedin <FaLinkedin size={30} />
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
