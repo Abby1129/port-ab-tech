@@ -1,5 +1,12 @@
 import React from "react";
 import HTML from "../assets/html.png";
+import CSS from "../assets/css.png";
+import JavaScript from "../assets/javascript.png";
+import ReactImg from "../assets/react.png";
+import Node from "../assets/node.png";
+import Express from "../assets/express.png";
+import Tailwind from "../assets/tailwind.png";
+import Postgres from "../assets/postgres.png";
 
 const Skills = () => {
   return (
@@ -19,31 +26,35 @@ const Skills = () => {
             <p className="my-4">HTML</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src="/" alt="css icon" className="w-20 mx-auto" />
+            <img src={CSS} alt="css icon" className="w-20 mx-auto" />
             <p className="my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src="/" alt="javascript icon" className="w-20 mx-auto" />
+            <img
+              src={JavaScript}
+              alt="javascript icon"
+              className="w-20 mx-auto"
+            />
             <p className="my-4">JavaScript</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src="/" alt="react icon" className="w-20 mx-auto" />
+            <img src={ReactImg} alt="react icon" className="w-20 mx-auto" />
             <p className="my-4">React</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src="/" alt="node icon" className="w-20 mx-auto" />
+            <img src={Node} alt="node icon" className="w-20 mx-auto" />
             <p className="my-4">Node</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src="/" alt="express icon" className="w-20 mx-auto" />
+            <img src={Express} alt="express icon" className="w-20 mx-auto" />
             <p className="my-4">Express</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src="/" alt="tailwind icon" className="w-20 mx-auto" />
+            <img src={Tailwind} alt="tailwind icon" className="w-20 mx-auto" />
             <p className="my-4">Tailwind</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src="/" alt="postgres icon" className="w-20 mx-auto" />
+            <img src={Postgres} alt="postgres icon" className="w-20 mx-auto" />
             <p className="my-4">Postgres</p>
           </div>
         </div>
